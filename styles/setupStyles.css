@@ -1,0 +1,80 @@
+#setup{
+   margin-bottom: 40px;
+   /* height: 200vh; */
+}
+#setup #home-title-search{
+margin-top: 40px;
+}
+
+#setup-box{
+    background-color: #fff;
+    box-shadow:  0 0 2px grey;
+    padding: 1px 10px 15px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#drop-down{
+    width: 70%;
+    padding: 10px 20px;
+}
+
+#drop-down label{
+    color: #b14b02;
+    padding-right: 40px;
+}
+
+#drop-down input{
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    box-shadow:  0 0 1.5px rgb(228, 149, 2);
+    border: none;
+}
+
+#drop-down input:focus{
+    outline: none;
+}
+
+.election-candidate-list{
+    padding: 8px 40px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 243, 243);
+    box-shadow:  0 0 2px rgb(185, 184, 184);
+    color: #b14b02;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.first-list{
+    margin-top: 30px;
+}
+.election-candidate-list p{
+    margin: 1px auto;
+}
+
+#election-candidate-action-btns{
+    padding-top: 15px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#election-candidate-action-btns button{
+    width: 100px;
+    padding: 10px 6px;
+    background-color: #b14b02;
+    color: #fff;
+    border: none;
+    font-size: .8em;
+}
+#election-candidate-action-btns button:last-child{
+    background-color: #fff;
+    color: #b14b02;
+    border: 1px solid #b14b02;
+}
+#election-candidate-action-btns button:focus{
+    outline: none;
+}

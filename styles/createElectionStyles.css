@@ -1,0 +1,74 @@
+#create-election{
+    margin: 80px auto;
+    height: 100%;
+    /* background-color: rgb(233, 232, 232); */
+}
+
+
+#create-election-boxes{
+    padding-top: 20px;
+}
+.create-election-sub-box{
+    background-color: #fff;
+    padding: 0px 30px 15px 30px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px #dfb79a;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.create-election-sub-box div h4{
+    margin-bottom: -2px;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+.create-election-sub-box div small{
+    color: grey;
+}
+
+.lines{
+ display: flex;
+}
+
+.lines hr:last-child{
+    background-color: rgb(231, 231, 231);
+    width: 60%;
+}
+.lines hr:first-child{
+    width: 40%;
+    border-radius: 0 30px 30px 0;
+    border: 1.5px solid #b14b02;
+    background-color: #b14b02;
+}
+
+.create-election-form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.create-election-form input, button{
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.create-election-form label{
+    color: #b14b02;
+}
+
+.create-election-form input{
+    border: 1px solid #b14b02;
+}
+.create-election-form input:focus{
+    outline: none;
+}
+
+.create-election-form  button{
+    background-color: #b14b02;
+    color: #fff;
+    border: none;
+    box-shadow:  0 3px 3px grey;
+    
+}

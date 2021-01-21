@@ -1,0 +1,55 @@
+/* All sections & page styles */
+@import url('leftPanelStyles.css');
+@import url('rightPanelStyles.css');
+@import url('centerPanelStyles.css');
+@import url('createElectionStyles.css');
+@import url('candidateStyles.css');
+@import url('setupStyles.css');
+@import url('electionResultStyles.css');
+@import url('dataMigrationStyles.css');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#app-container{
+    width: 80vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    padding: 0 10px;
+}
+#left-panel, #right-panel, #center-panel{
+    height: 100%;
+}
+#left-panel{
+    width: 17%;
+    background-color: #b14b02;
+    border-radius: 0 30px 30px 0;
+    padding: 40px 0;
+} 
+
+#right-panel{
+    width: 20%;
+    padding: 30px 15px;
+    background-color: rgb(245, 243, 243);
+    border-radius: 20px 0 0 20px;
+}
+
+#center-panel{
+    background-color: #fff;
+    width: 63%;
+    color:#000;
+    padding: 40px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+

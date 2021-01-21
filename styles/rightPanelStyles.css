@@ -1,0 +1,90 @@
+#inner-left-panel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #f16d0e;
+}
+#profile{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+#admin-details{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #f16d0e;
+    color: white;
+    border-radius: 15px;
+}
+#admin-details div{
+    background-color: #000;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    margin: auto;
+}
+#admin-details img{
+    border-radius: 100%;
+    border-radius: 90%; 
+}
+
+#admin-details p, small{
+    margin-bottom: 2px;
+    font-size: .8em;
+    text-align: center;
+}
+
+
+#notification div{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5px 10px 5px;
+}
+#notification div span{
+    font-weight: bold;
+}
+.messages{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.messages:last-child{
+    margin-bottom: 10px;
+}
+.messager-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+.messager-image img{
+    border-radius: 100%;
+}
+.messages-content, .time small{
+    font-size: .5em;
+    color: #000;
+}
+
+.messages-content{
+    word-wrap: wrap;
+    width: 55%;
+}
+.messages-content p{
+    margin-bottom: -3px;
+}
+.messages-content p:last-child{
+    font-weight: bold;
+}
+.time{
+    width: 10%
+}
+.time small{
+    font-size: .3em;
+}

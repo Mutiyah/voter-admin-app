@@ -1,0 +1,119 @@
+#home{
+    display: block;
+    margin-top: -40px;
+}
+#home-title-search{
+    display: flex;
+    justify-content: space-between;
+}
+#home-title-search span b{
+    font-size: 1.5em;
+    color: rgb(180, 179, 179);
+}
+#search-can{
+    width: fit-content;
+    background-color: rgb(235, 232, 232);
+    border-radius: 20px;
+}
+
+#search-can input{
+    background-color: rgb(235, 232, 232);
+    border: none;
+    padding: 10px 0px;
+    border-radius:0 20px 20px 0;
+    font-size: .9em;
+}
+#search-can input:focus{
+    outline: none;
+}
+#search-can i{
+    width: fit-content;
+    padding: 8px;
+    margin-right: -8px; 
+}
+
+
+#hello-box{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    background-color:  #b14b02;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+#hello-box-detail p{
+    font-family: cursive;
+    font-size: 1.2em;
+    margin-bottom: 4px;
+    padding-top: 5px;
+}
+
+#hello-box-detail > small{
+    font-size: .8em;
+    font-style: normal;
+    font-family: monospace;
+}
+
+#hello-image{
+    margin-top: -40px;
+}
+
+/* Information box */
+#data-info{
+    background-color: rgb(245, 243, 243);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.data-info-box-container{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.data-info-box-container:last-child{
+   margin-bottom: -35px;
+}
+.data-info-box{
+    background-color: #fff;
+    max-width: 28%;
+    height: 75px;
+    padding: 20px 20px ;
+    display: flex;
+    border-radius: 10px;
+}
+
+.data-info-box-icon, .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.data-info-box-icon span{
+    background-color: #b14b02;
+    color: #fff;
+    padding: 8px 0 8px 8px ;
+    border-radius: 5px;
+    margin-right: 13px;
+    box-shadow: 2px 1px 10px  #b14b02;
+}
+
+.info p{
+    margin-bottom: -20px;
+    font-size: .8em;
+    padding-top: 12px;
+}
+.info h3{
+    font-size: 2em;
+    font-weight: normal;
+    font-family: monospace;
+}
+.info p, h3{
+    color: #000;
+}

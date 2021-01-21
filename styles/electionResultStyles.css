@@ -1,0 +1,31 @@
+#election-result{
+    margin-bottom: 50px;
+}
+#election-position-box{
+    width: 60%;
+    background-color: #fff;
+    box-shadow:  0 0 2px grey;
+    padding:  20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.election-result-box {
+    height: 40px;
+    box-shadow:  0 0 2px rgb(168, 167, 167);
+    background-color: rgb(245, 243, 243);
+    border-radius: 20px;
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.election-result-box p a{
+    color: #b14b02;
+    text-decoration: none;
+}
+
+.election-result-box p{
+    margin-top: 0;
+}

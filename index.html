@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+     <!-- Font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Voter's Admin App</title>
+</head>
+<body>
+    <div id="app-container">
+        <!-- Left panel -->
+        <div id="left-panel">
+            <div id="inner-left-Panel">
+                <div id="logo">
+                 <a href=""><span id="logoCan"><span id="logoIcon" href="#">m</span> Coop Election</span> </a>
+                </div>
+                <div id="left-Panel-link">
+                    <a id="home-btn" href="#home"><i class="fas fa-igloo"></i> <span>Home</span></a>
+                    <a id="create-election-btn"  href="#create-election"><i class="fas fa-pen-square"></i> <span>Create Election</span></a>
+                    <a id="candidate-btn" href="#candidate"><i class="fas fa-users"></i> <span>Candidate</span></a>
+                    <a id="candidate-btn" href="#ViewCandidate"><i class="fas fa-users"></i> <span>View Candidates</span></a>
+                    <a href="#setup"><i class="fas fa-cog"></i> <span>Setting</span></a>
+                    <a href="#election-result"><i class="fas fa-poll-h"></i> <span>Election Result</span></a>
+                    <a href="#"><i class="fas fa-file-alt"></i> <span>Election Report</span></a>
+                    <a href="#data-migration"><i class="fas fa-database"></i> <span>Data Migration</span></a>
+                    <a href="#"><i class="fas fa-check-circle"></i> <span>Voter's Validation</span></a>
+                </div>
+            </div>
+        </div> <!--End of left panel -->
+
+        <!--Center panel -->
+        <div id="center-panel">
+            <!-- Home section -->
+            <div id="home">
+                <div id="home-title-search">
+                    <span> <b>  Dashboard  </b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                    </div>
+                
+                    <div id="hello-box">
+                        <div id="hello-box-detail" >
+                            <p>Hello, Ponky</p>
+                            <small>Welcome back!!!</small>
+                        </div>
+
+                        <div id="hello-image">
+                            <img src="images/img2.png" alt=" Welcome photo" width="200px" height="135px">
+                        </div>
+                    </div>
+
+                    <div id="data-info">
+                        <div class="data-info-box-container">
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-user-check"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Nomination</p>
+                                    <h3>234</h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span></i><i class="fas fa-heart"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Expression of interest</p>
+                                    <h3>113</h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-bullhorn"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Campaign</p>
+                                    <h3>244</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="data-info-box-container">
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-users"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Screened Candidate</p>
+                                    <h3>234</h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-user-times"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Unscreed Candidate</p>
+                                    <h3>112</h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-restroom"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Voters</p>
+                                    <h3>2334</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="data-info-box-container">
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-user-friends"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Election Committee</p>
+                                    <h3>23</h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Time Table</p>
+                                    <h3></h3>
+                                </div>
+                            </a>
+
+                            <a href="#" class="data-info-box">
+                                <div class="data-info-box-icon">
+                                    <span><i class="fas fa-vote-yea"></i></span>
+                                    </div>
+                                <div class="info">
+                                    <p>Registered Voters</p>
+                                    <h3></h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Create election section -->
+            <div id="create-election">
+                <div id="home-title-search">
+                    <span> <b> Candidate  </b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                </div>
+
+                <div id="create-election-boxes">
+                   <div class="create-election-sub-box">
+                    <div>
+                        <h4>Create Election</h4>
+                        <small>Enter election name or select from the list</small>
+                        <div class="lines"><hr><hr></div>
+                    </div>
+                    <form>
+                        <div class="create-election-form">
+                            <label for="election name">Election Name:</label>
+                            <input type="text" placeholder="Enter name or election name">
+                            <button><i class="fas fa-save"></i>Save</button>
+                        </div>
+                    </form>
+                   </div>
+
+                   <div class="create-election-sub-box">
+                    <div>
+                        <h4>Add Election Position</h4>
+                        <div class="lines"><hr><hr></div>
+                    </div>
+                    <form>
+                        <div class="create-election-form">
+                            <label for="election name">Position Name:</label>
+                                <input list="positions" name="PositionName"  placeholder="Enter/select position name"/>
+                                <datalist id="positions">
+                                  <option value="Presidential Election">
+                                  <option value="Presidential Election 01">
+                                  <option value="Presidential Election 02">
+                                </datalist>
+                            <button><i class="fas fa-plus-circle"></i>Add</button>
+                        </div>
+                    </form>
+                   </div>
+                </div>    
+
+            </div>
+
+            <!-- Candidate Section -->
+            <div id="candidate">
+                <!-- <div id="home-title-search">
+                    <span> <b> Candidate  </b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                </div> -->
+                <form action="">
+                <div id="add-EOI-candidate-form">
+                        <section id="form-header">
+                            <h3>Add EOI Candidate</h3>
+                            <div class="lines"><hr><hr></div>
+                        </section>
+
+                        <div>
+                            <label for="election">Select Election:</label>
+                            <input list="election" name="ElectionName"  placeholder="Enter/select position name"/>
+                                <datalist id="election">
+                                  <option value="Presidential Election">
+                                  <option value="Presidential Election 01">
+                                  <option value="Presidential Election 02">
+                                </datalist>
+                        </div>
+
+                        <div>
+                            <label for="election">Select Position:</label>
+                            <input list="positions" name="PositionName"  placeholder="Enter/select position name"/>
+                                <datalist id="positions">
+                                  <option value="Presidential Election">
+                                  <option value="Presidential Election 01">
+                                  <option value="Presidential Election 02">
+                                </datalist>
+                        </div>
+
+                        <div><hr></div>
+
+                        <div>
+                            <label for="name">Name:</label>
+                            <input name="name" type="text" placeholder="Enter candidate name"/>
+                        </div>
+
+                        <div>
+                            <label for="number">Phone Number:</label>
+                            <input name="number" type="text" placeholder="Enter candidate phone number"/>
+                        </div>
+
+                        <div>
+                            <label for="photo">Photo:</label>
+                            <button><i class="fas fa-file-image"></i>Upload</button>
+                        </div>
+
+                        <div>
+                            <label for="profile">Profile:</label>
+                            <textarea name="profile" id="profile"  placeholder="Profile..."></textarea>
+                        </div>
+
+                        <div>
+                            <label for="manifesto">Manifesto:</label>
+                            <textarea name="manifesto" id="manifesto"  placeholder="Profile..."></textarea>
+                        </div>
+
+                        <div id="form-btns">
+                            <button><i class="fas fa-plus-circle"></i>Add</button>
+                            <button class="no-color-fill-btns"><i class="fas fa-pen-square"></i>Edit</button>
+                            <button class="no-color-fill-btns"><i class="fas fa-pen-square"></i>Update</button>
+                        </div>
+                </div>
+            </form>
+
+            
+            </div>
+
+            <!-- View Candidate section -->
+            <section id="ViewCandidate">
+                    <div id="add-EOI-candidate-form">
+                            <section id="form-header">
+                                <h3>Add EOI Candidate</h3>
+                                <div class="lines"><hr><hr></div>
+                            </section>
+    
+                          
+                                   <ul id="list-header">
+                                       <li>Position</li>
+                                       <li>Name</li>
+                                       <li>Phone Number</li>
+                                       <li>Picture</li>
+                                       <li id="action">Actions</li>
+                                   </ul>
+                              
+                                   <ul class="list-items">
+                                       <li>Presidential</li>
+                                       <li>Mutiyah Muritala</li>
+                                       <li>08011122256</li>
+                                       <li><img src="images/img1.jpg" alt="President Mutiya's Photo" width="30px" height="30px"> </li>
+                                       <li class="actions">
+                                            <button>Approve</button>
+                                            <button>Screen</button>
+                                            <button>Publish</button>
+                                        </li>
+                                   </ul>
+                                  
+                                   <ul class="list-items">
+                                    <li>Presidential</li>
+                                    <li>Mutiyah Muritala</li>
+                                    <li>08011122256</li>
+                                    <li><img src="images/img1.jpg" alt="President Mutiya's Photo" width="30px" height="30px"> </li>
+                                    <li class="actions">
+                                         <button>Approve</button>
+                                         <button>Screen</button>
+                                         <button>Publish</button>
+                                     </li>
+                                    </ul>
+
+                                    <ul class="list-items">
+                                        <li>Presidential</li>
+                                        <li>Mutiyah Muritala</li>
+                                        <li>08011122256</li>
+                                        <li><img src="images/img1.jpg" alt="President Mutiya's Photo" width="30px" height="30px"> </li>
+                                        <li class="actions">
+                                             <button>Approve</button>
+                                             <button>Screen</button>
+                                             <button>Publish</button>
+                                         </li>
+                                        </ul>
+
+                                        <ul class="list-items">
+                                            <li>Presidential</li>
+                                            <li>Mutiyah Muritala</li>
+                                            <li>08011122256</li>
+                                            <li><img src="images/img1.jpg" alt="President Mutiya's Photo" width="30px" height="30px"> </li>
+                                            <li class="actions">
+                                                 <button>Approve</button>
+                                                 <button>Screen</button>
+                                                 <button>Publish</button>
+                                             </li>
+                                            </ul>
+
+                                            <ul class="list-items">
+                                                <li>Presidential</li>
+                                                <li>Mutiyah Muritala</li>
+                                                <li>08011122256</li>
+                                                <li><img src="images/img1.jpg" alt="President Mutiya's Photo" width="30px" height="30px"> </li>
+                                                <li class="actions">
+                                                     <button>Approve</button>
+                                                     <button>Screen</button>
+                                                     <button>Publish</button>
+                                                 </li>
+                                                </ul>
+                          
+                    </div>
+            </section>
+
+            <!-- set up section -->
+            <section id="setup">
+                <div id="home-title-search">
+                    <span> <b> Set Up </b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                </div>
+                <div id="setup-box">
+                    <div id="form-header">
+                        <h3>Add EOI Candidate</h3>
+                        <div class="lines"><hr><hr></div>
+                    </div>
+
+                    <div id="drop-down">
+                        <label for="election">List of Election:</label>
+                        <input list="candidates" name="ElectionName"  placeholder="Enter/select position name"/>
+                            <datalist id="candidates">
+                              <option value="Election 1">
+                              <option value="Election 2">
+                              <option value="Election 3">
+                              <option value="Election 4">
+                              <option value="Election 5">
+                            </datalist>
+                    </div>
+
+                    <div class="election-candidate-list first-list">
+                        <p>Mutiyah Muritala</p>
+                        <p>09011122267</p>
+                    </div>
+
+                    <div class="election-candidate-list ">
+                        <p>Mutiyah Muritala</p>
+                        <p>09011122267</p>
+                    </div>
+                    <div class="election-candidate-list">
+                        <p>Mutiyah Muritala</p>
+                        <p>09011122267</p>
+                    </div>
+                    <div class="election-candidate-list">
+                        <p>Mutiyah Muritala</p>
+                        <p>09011122267</p>
+                    </div>
+                    <div class="election-candidate-list">
+                        <p>Mutiyah Muritala</p>
+                        <p>09011122267</p>
+                    </div>
+
+                
+
+
+                    <div id="election-candidate-action-btns">
+                        <button><i class="fas fa-plus-circle"></i>Add</button>
+                        <button><i class="fas fa-plus-circle"></i>Remove</button>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- Election result section -->
+            <section id="election-result">
+                <div id="home-title-search">
+                    <span> <b> Election Result</b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                </div>
+
+                <div id="election-position-box">
+                    <div id="form-header">
+                        <h3>Election Position</h3>
+                        <div class="lines"><hr><hr></div>
+                    </div>
+
+                    <div class="election-result-box first-list">
+                        <p>1</p>
+                        <p><a href="#">Mutiyah Muritala</a></p>
+                    </div>
+
+                    <div class="election-result-box ">
+                        <p>1</p>
+                        <p><a href="#">Mutiyah Muritala</a></p>
+                    </div>
+
+                    <div class="election-result-box ">
+                        <p>1</p>
+                        <p><a href="#">Mutiyah Muritala</a></p>
+                    </div>
+
+                    <div class="election-result-box ">
+                        <p>1</p>
+                        <p><a href="#">Mutiyah Muritala</a></p>
+                    </div>
+
+                    <div class="election-result-box ">
+                        <p>1</p>
+                        <p><a href="#">Mutiyah Muritala</a></p>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="data-migration">
+                <div id="home-title-search">
+                    <span> <b> Data Migration</b> </span>
+                    <span id="search-can"><i class="fas fa-search"></i> <input type="text" placeholder="Search Keyword"></span>
+                </div>
+
+                <div id="data-migration-outer-box">
+                    <div id="data-migration-btn">
+                        <div><input list="format" name="PositionName"  placeholder="Format"/>
+                            <datalist id="format">
+                              <option value="Excel">
+                              <option value="PDF">
+                              <option value="Word">
+                            </datalist></div>
+                        <div>
+                            <button><i class="fas fa-file-image"></i>Download</button>
+                        </div>
+                    </div>
+
+                    <div id="textarea">
+                        <textarea name="data" id="data" placeholder="Your meassage..."></textarea>
+                    </div>
+                   
+
+                    <div id="data-migration-save-btn">
+                        <button><i class="fas fa-save"></i> Save</button>
+                    </div>
+                </div>
+            </section>
+        </div> <!--End of center panel -->
+
+        <!-- Right panel -->
+        <div id="right-panel">
+            <div id="inner-left-panel">
+                <div id="profile">
+                 <span>Profile</span>
+                    <i class="fas fa-edit"></i>
+                </div>
+
+                <div id="admin-details">
+                   <div><img  src="images/img1.jpg" alt="Admin photo" height="65px" width="70px"></div> 
+                    <p>Howary Ponsky</p>
+                    <small>howary.pon@gmail.com</small>
+                </div>
+
+                <div id="notification">
+                    <div><span>Notification</span> <i class="far fa-bell"></i></div>
+                </div>
+                <section id="notifications">
+                <div class="messages">
+                    <div class="messager-image"><img src="images/img1.jpg" alt="messager photo" width="30px" height="30px"></div>
+                    <div class="messages-content">
+                        <p>Hello, this message is coming from Rita</p>
+                        <p>XD 4 life</p>
+                    </div>
+                    <div class="time"><small>4mins </small></div>
+                </div>
+                <div class="messages">
+                    <div class="messager-image"><img src="images/img1.jpg" alt="messager photo" width="30px" height="30px"></div>
+                    <div class="messages-content">
+                        <p>Hello, this message is coming from Rita</p>
+                        <p>XD 4 life</p>
+                    </div>
+                    <div class="time"><small>4mins </small></div>
+                </div>
+                <div class="messages">
+                    <div class="messager-image"><img src="images/img1.jpg" alt="messager photo" width="30px" height="30px"></div>
+                    <div class="messages-content">
+                        <p>Hello, this message is coming from Rita</p>
+                        <p>XD 4 life</p>
+                    </div>
+                    <div class="time"><small>4mins </small></div>
+                </div>
+                <div class="messages">
+                    <div class="messager-image"><img src="images/img1.jpg" alt="messager photo" width="30px" height="30px"></div>
+                    <div class="messages-content">
+                        <p>Hello, this message is coming from Rita</p>
+                        <p>XD 4 life</p>
+                    </div>
+                    <div class="time"><small>4mins </small></div>
+                </div>
+            </section>
+            </div>
+
+        </div>  <!--End of right panel -->
+    </div>
+
+
+    <script src="script/index.js"></script>
+</body>
+</html>

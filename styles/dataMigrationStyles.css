@@ -1,0 +1,60 @@
+#data-migration{
+    /* padding-top: 40px; */
+}
+#data-migration-outer-box{
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px #dfb79a;
+    height: fit-content;
+    margin-top: 30px;
+   
+}
+
+#data-migration-btn{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#data-migration-btn input{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #b14b02;
+    background-color: rgb(245, 243, 243);
+    margin-right: 60px;
+
+}
+
+#data-migration-btn input:focus{
+    outline: none;
+}
+#data-migration-btn button{
+background-color: #fff;
+color: #b14b02;
+border: 1px solid #b14b02;
+}
+
+#textarea{
+    display: flex;
+    justify-content: center;
+}
+#textarea textarea{
+    height: 40vh;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #b14b02;
+}
+#data-migration-save-btn{
+    padding-top: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+#data-migration-save-btn button{
+    background-color: #b14b02;
+    color: #fff;
+    border: none;
+    box-shadow:  0 3px 3px grey;
+    padding-left: 25px;
+    padding-right: 25px;
+}

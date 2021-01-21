@@ -1,0 +1,47 @@
+#logo{
+    padding-bottom: 40px;
+}
+#logo a #logoCan{
+    padding: 0 15px 0 15px
+}
+#logoIcon{
+    color: #b14b02;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 100%;
+    margin-right: -2px;
+}
+#left-Panel-link{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+}
+
+#left-Panel-link, a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 35px;
+    font-size: .9em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* #left-Panel-link a:hover{
+    background-color: #fff;
+    color: #b14b02;
+    padding: 10px 0 10px 12px;
+    width: 120%;
+    border-radius: 20px;
+} */
+#left-Panel-link a:focus{
+    background-color: #fff;
+    color: #b14b02;
+    padding: 10px 0 10px 12px;
+    width: 120%;
+    border-radius: 20px;
+}
+#left-Panel-link, a, i{
+    padding-right: 8px;
+}
